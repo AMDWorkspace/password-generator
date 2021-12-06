@@ -4,7 +4,7 @@ var generateBtn = document.querySelector("#generate");
 var lowercaseChar ="abcdefghijklmnopqrstuvwxyz";
 var uppercaseChar ="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 var numericalChar ="0123456789";
-var specialChar ="!#$%&'()*+-./;:<=>?@[]\^_`{}|~"
+var specialChar ="!#$%&'()*+-./;:<=>?@[]\^_`{}|~";
 
 function generatePassword() {
   console.log("Hey, You clicked the button!")
@@ -15,16 +15,17 @@ function generatePassword() {
 // Step 1. Prompt the user for the password criteria.
 //  a. Password length 8 < 128
 
-  var passwordLengthUser = prompt("Password must be between 8-128 characters.");
-  passwordLengthUser = parseInt(passwordLengthUser);
+  var passwordLengthUser = parseInt(prompt("Password must be between 8-128 characters."));
+ 
 
   if (passwordLengthUser < 8) {
     alert("Password must have more than 7 characters!");
-    return "";
+    return "Your password doesn't contain more than 7 characters!";
   }
 
   if (passwordLengthUser > 128) {
     alert("Password must not have more than 128 characters!");
+    return "Your password exceeds the character limit of 128 characters!";
   }
 
 //  b. Lowercase, Uppercase, Numbers, Special Characters
@@ -52,17 +53,25 @@ function generatePassword() {
   if (specialCharactersChoice) {
     passwordChar += specialChar;
   }
-  
 
+  if (!lowercaseCharactersChoice && !uppercaseCharactersChoice && !numericalCharactersChoice && !specialCharactersChoice) {
+    alert("Your password must contain at least one special, numeric, lowercase, or uppercase character");
+    return;
+  }
+
+  for (var i = 0; i < passwordLengthUser; i++) {
+    password = passwordChar[Math.floor(Math.random() * passwordChar.length)]
+  }
+
+  
 // Step 2. Validate the input.
 
 // Step 3. Generate password based on criteria.
-
-
-
 // Step 4. Display the generated password to the page.
-  return "Generated password will go here!";
+return "Generated password will go here!";
+
 }
+
 
 // Write password to the #password input
 function writePassword() {
