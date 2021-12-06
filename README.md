@@ -36,3 +36,4 @@ Create an application that an employee can use to generate a random password bas
 ![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.49.40%20PM.png)
 
 ## Link to Deployed Application:
+https://amdworkspace.github.io/password-generator/
