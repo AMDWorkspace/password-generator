@@ -70,7 +70,7 @@ while(counter < passwordLengthUser) {
 alert("The random password generated is: " + password)
 
 // Step 4. Display the generated password to the page.
-return "Generated password will go here!";
+return password;
 
 }
 
