@@ -26,5 +26,13 @@ Create an application that an employee can use to generate a random password bas
 - THEN the password is either displayed in an alert or written to the page
 
 ## Screenshot
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.44.24%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.46.25%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.46.42%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.46.55%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.47.17%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.47.33%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.49.29%20PM.png)
+![screenshot](https://github.com/AMDWorkspace/password-generator/blob/main/images/Screen%20Shot%202021-12-05%20at%209.49.40%20PM.png)
 
 ## Link to Deployed Application:
